@@ -1,0 +1,24 @@
+Name: Test Repository_Dispatch
+
+on:
+  push:
+
+
+jobs:
+  job1:
+    name: Repo 1 [Start]
+    runs_on: [windows-latest]
+    steps:
+    - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: my-event-internal
+
+  job2:
+    name: Repo 1 [Start]
+    runs_on: [windows-latest]
+    steps:
+    - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: my-event-external
