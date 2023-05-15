@@ -1,4 +1,4 @@
-Name: Workflow 1
+name: Workflow 1
 
 on:
   push:

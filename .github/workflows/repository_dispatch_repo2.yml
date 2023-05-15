@@ -1,4 +1,4 @@
-Name: Workflow 2
+name: Workflow 2
 
 on:
   repository_dispatch:
