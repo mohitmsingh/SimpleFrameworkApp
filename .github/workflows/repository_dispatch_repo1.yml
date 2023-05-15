@@ -7,7 +7,7 @@ on:
 jobs:
   job1:
     name: Repo 1 [Start]
-    runs_on: [windows-latest]
+    runs-on: [windows-latest]
     steps:
     - name: Repository Dispatch
       uses: peter-evans/repository-dispatch@v2
@@ -16,7 +16,7 @@ jobs:
 
   job2:
     name: Repo 1 [Start]
-    runs_on: [windows-latest]
+    runs-on: [windows-latest]
     steps:
     - name: Repository Dispatch
       uses: peter-evans/repository-dispatch@v2
