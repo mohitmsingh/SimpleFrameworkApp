@@ -1,8 +1,8 @@
-Name: Test Repository_Dispatch
+Name: Workflow 2
 
 on:
   repository_dispatch:
-  types: [my-event-internal]
+    types: [my-event-internal]
 
 
 jobs:
